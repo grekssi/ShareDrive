@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{F6C3FEFA-E298-4A8D-9AD1-BEAA123A5DFA}|Default">
+  <MonoDevelop.Ide.ItemProperties.AuthenticationAPI FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AuthenticationAPI/Startup.cs">
+    <Files>
+      <File FileName="AuthenticationAPI/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="AuthenticationAPI/Program.cs" Line="1" Column="1" />
+      <File FileName="AuthenticationAPI/Startup.cs" Line="12" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AuthenticationAPI" expanded="True">
+            <Node name="AuthenticationAPI" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
