@@ -1214,34 +1214,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BedrosGarabedyan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/bedrosgarabedyan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BedrosGarabedyan\\source\\repos\\AuthenticationAPI\\AuthenticationAPI\\AuthenticationAPI.csproj",
+      "projectUniqueName": "/Users/bedrosgarabedyan/ShareDrive/AuthenticationAPI/AuthenticationAPI/AuthenticationAPI/AuthenticationAPI.csproj",
       "projectName": "AuthenticationAPI",
-      "projectPath": "C:\\Users\\BedrosGarabedyan\\source\\repos\\AuthenticationAPI\\AuthenticationAPI\\AuthenticationAPI.csproj",
-      "packagesPath": "C:\\Users\\BedrosGarabedyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BedrosGarabedyan\\source\\repos\\AuthenticationAPI\\AuthenticationAPI\\obj\\",
+      "projectPath": "/Users/bedrosgarabedyan/ShareDrive/AuthenticationAPI/AuthenticationAPI/AuthenticationAPI/AuthenticationAPI.csproj",
+      "packagesPath": "/Users/bedrosgarabedyan/.nuget/packages/",
+      "outputPath": "/Users/bedrosgarabedyan/ShareDrive/AuthenticationAPI/AuthenticationAPI/AuthenticationAPI/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\BedrosGarabedyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/bedrosgarabedyan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1295,7 +1285,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/6.0.103/libexec/sdk/6.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }
