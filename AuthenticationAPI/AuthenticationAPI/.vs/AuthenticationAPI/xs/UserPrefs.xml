@@ -1,18 +1,17 @@
-﻿<Properties StartupConfiguration="{F6C3FEFA-E298-4A8D-9AD1-BEAA123A5DFA}|Default">
-  <MonoDevelop.Ide.ItemProperties.AuthenticationAPI FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AuthenticationAPI/Startup.cs">
+﻿<Properties StartupConfiguration="{4DBC6898-2AED-4913-9CF9-E1F478D8DA8D}|Default">
+  <MonoDevelop.Ide.ItemProperties.AuthenticationAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ClientsController.cs">
     <Files>
-      <File FileName="AuthenticationAPI/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="AuthenticationAPI/Program.cs" Line="1" Column="1" />
-      <File FileName="AuthenticationAPI/Startup.cs" Line="12" Column="25" />
+      <File FileName="Controllers/ClientsController.cs" Line="16" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AuthenticationAPI" expanded="True">
             <Node name="AuthenticationAPI" expanded="True">
-              <Node name="Properties" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="ClientsController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

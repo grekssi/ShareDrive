@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bedrosgarabedyan/ShareDrive/AuthenticationAPI/AuthenticationAPI/AuthenticationAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/bedrosgarabedyan/ShareDrive/AuthenticationAPI/AuthenticationAPI/AuthenticationAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bedrosgarabedyan/ShareDrive/AuthenticationAPI/AuthenticationAPI/AuthenticationAPI.csproj",
+        "projectName": "AuthenticationAPI",
+        "projectPath": "/Users/bedrosgarabedyan/ShareDrive/AuthenticationAPI/AuthenticationAPI/AuthenticationAPI.csproj",
+        "packagesPath": "/Users/bedrosgarabedyan/.nuget/packages/",
+        "outputPath": "/Users/bedrosgarabedyan/ShareDrive/AuthenticationAPI/AuthenticationAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bedrosgarabedyan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.21.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/bedrosgarabedyan/Library/Caches/VisualStudio/8.0/MSBuild/6707_1/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
