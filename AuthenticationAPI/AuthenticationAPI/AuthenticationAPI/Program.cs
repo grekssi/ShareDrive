@@ -1,8 +1,20 @@
+using AuthenticationAPI.Entities;
+using AuthenticationAPI.Middlewares;
+using AuthenticationAPI.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Identity.Web;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+var services = builder.Services;
+services.AddCors();
+services.AddControllers();
+
+services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
+services.AddScoped<IUserService, UserService>();
+
 
 // Add services to the container.
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -29,4 +41,16 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+app.Run("http://localhost:4000");
+
+
+{
+    // global cors policy
+    app.UseCors(x => x
+        .AllowAnyOrigin()
+        .AllowAnyMethod()
+        .AllowAnyHeader());
+
+    // custom jwt auth middleware
+    app.UseMiddleware<JwtMiddleware>();
+}
