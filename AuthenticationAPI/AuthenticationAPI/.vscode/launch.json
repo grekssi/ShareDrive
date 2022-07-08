@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/AuthenticationAPI/bin/Debug/netcoreapp2.0/AuthenticationAPI.dll",
+            "program": "${workspaceFolder}/AuthenticationAPI/bin/Debug/net6.0/AuthenticationAPI.dll",
             "args": [],
             "cwd": "${workspaceFolder}/AuthenticationAPI",
             "stopAtEntry": false,
