@@ -16,18 +16,6 @@
     <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 2" width="207" height="448">
   </li>
   <li style="margin-right: 20px;">
-    <img src="" alt="Screenshot 3" width="207" height="448">
-  </li>
-</ul>
-
-<ul style="list-style-type: none;">
-  <li style="margin-bottom: 20px;">
-    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 1" style="transform: scale(0.5);">
-  </li>
-  <li style="margin-bottom: 20px;">
-    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 2" style="transform: scale(0.5);">
-  </li>
-  <li style="margin-bottom: 20px;">
-    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 3" style="transform: scale(0.5);">
+    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 3" width="207" height="448">
   </li>
 </ul>
