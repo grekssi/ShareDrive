@@ -11,10 +11,10 @@
 <!--HTML code for a horizontal list of images, using the specified image URL and a smaller max-width value-->
 <ul style="list-style-type: none; display: flex;">
   <li style="margin-right: 20px;">
-    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 1" style="max-width: 50%;">
+    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 1" width="207" height="448">
   </li>
   <li style="margin-right: 20px;">
-    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 2" style="max-width: 50%;">
+    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 2"  width="207" height="448">
   </li>
   <li style="margin-right: 20px;">
     <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 3" width="207" height="448">
