@@ -8,4 +8,14 @@
   <li>Reduces the number of cars on the road and alleviates traffic congestion</li>
 </ul>
 
-<img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Italian Trulli">
+<ul style="display: flex;">
+  <li style="margin-right: 20px;">
+    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 1" width="414" height="896">
+  </li>
+  <li style="margin-right: 20px;">
+    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 2" width="414" height="896">
+  </li>
+  <li style="margin-right: 20px;">
+    <img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Screenshot 3" width="414" height="896">
+  </li>
+</ul>
