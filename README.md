@@ -7,3 +7,5 @@
   <li>Cost-effective alternative for drivers and passengers</li>
   <li>Reduces the number of cars on the road and alleviates traffic congestion</li>
 </ul>
+
+<img src="https://user-images.githubusercontent.com/25712677/209672214-00c60d6e-1d30-4320-9b60-0816102dea56.png" alt="Italian Trulli">
