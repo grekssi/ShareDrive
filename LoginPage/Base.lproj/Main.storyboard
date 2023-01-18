@@ -71,13 +71,13 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8s-pT-eWI">
-                                <rect key="frame" x="70" y="730" width="62" height="62"/>
+                                <rect key="frame" x="100" y="730" width="62" height="62"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="62" id="8B6-wd-Tbs"/>
                                     <constraint firstAttribute="height" constant="62" id="W8Q-MR-yEd"/>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
                                     <imageReference key="image" image="login_facebook_icon.png" symbolScale="large"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                                 </state>
@@ -85,26 +85,15 @@
                                     <action selector="facebookLoginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bCu-bT-RVc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qpt-bg-ybJ">
-                                <rect key="frame" x="282" y="730" width="62" height="62"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="Kwh-At-irM"/>
-                                    <constraint firstAttribute="width" constant="62" id="X6L-m7-lBP"/>
-                                </constraints>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
-                                    <imageReference key="image" image="login_github_icon.png" symbolScale="large"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eo-pt-gdU">
-                                <rect key="frame" x="166" y="720" width="82" height="82"/>
+                                <rect key="frame" x="252" y="730" width="62" height="62"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="82" id="3ii-J6-MZd"/>
-                                    <constraint firstAttribute="width" constant="82" id="L4C-72-6EH"/>
+                                    <constraint firstAttribute="height" constant="62" id="3ii-J6-MZd"/>
+                                    <constraint firstAttribute="width" constant="62" id="L4C-72-6EH"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
+                                <state key="normal">
                                     <imageReference key="image" image="login_google_icon.png" symbolScale="large"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
@@ -113,15 +102,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="3eo-pt-gdU" firstAttribute="trailing" secondItem="KtH-3d-buM" secondAttribute="trailing" constant="-30" id="5e4-Uf-mvC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZvC-G1-Eft" secondAttribute="bottom" id="6dd-Tt-3fd"/>
                             <constraint firstItem="HSE-Ag-xH0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="7Mb-dB-zCC"/>
                             <constraint firstItem="3eo-pt-gdU" firstAttribute="centerY" secondItem="t8s-pT-eWI" secondAttribute="centerY" id="AFA-kA-1I0"/>
-                            <constraint firstItem="3eo-pt-gdU" firstAttribute="centerX" secondItem="KtH-3d-buM" secondAttribute="centerX" id="D6i-9O-jVz"/>
                             <constraint firstItem="HSE-Ag-xH0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="DBJ-kv-HmG"/>
                             <constraint firstItem="9ai-0R-Q2L" firstAttribute="top" secondItem="h07-7H-fel" secondAttribute="top" constant="-30" id="Mbd-29-G3B"/>
-                            <constraint firstItem="t8s-pT-eWI" firstAttribute="leading" secondItem="KtH-3d-buM" secondAttribute="leading" id="YHt-mA-gln"/>
+                            <constraint firstItem="t8s-pT-eWI" firstAttribute="leading" secondItem="KtH-3d-buM" secondAttribute="leading" constant="30" id="YHt-mA-gln"/>
                             <constraint firstItem="h07-7H-fel" firstAttribute="centerY" secondItem="ZvC-G1-Eft" secondAttribute="centerY" id="ZAc-5d-fRi"/>
-                            <constraint firstItem="Qpt-bg-ybJ" firstAttribute="centerY" secondItem="3eo-pt-gdU" secondAttribute="centerY" id="egs-et-o3X"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZvC-G1-Eft" secondAttribute="trailing" constant="-20" id="fN7-mu-dla"/>
                             <constraint firstItem="9ai-0R-Q2L" firstAttribute="bottom" secondItem="h07-7H-fel" secondAttribute="bottom" constant="30" id="ik4-Ch-hP8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h07-7H-fel" secondAttribute="trailing" constant="70" id="jxQ-T1-i2L"/>
@@ -130,7 +118,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HSE-Ag-xH0" secondAttribute="trailing" constant="50" id="mnj-rj-A42"/>
                             <constraint firstItem="t8s-pT-eWI" firstAttribute="top" secondItem="9ai-0R-Q2L" secondAttribute="bottom" constant="28" id="otz-im-GfK"/>
                             <constraint firstItem="h07-7H-fel" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="pep-zB-bYz"/>
-                            <constraint firstItem="Qpt-bg-ybJ" firstAttribute="trailing" secondItem="KtH-3d-buM" secondAttribute="trailing" id="sC8-gy-aes"/>
                             <constraint firstItem="9ai-0R-Q2L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="vPi-QS-I85"/>
                         </constraints>
                     </view>
@@ -595,8 +582,7 @@
         <image name="app_logo_color.png" width="2880" height="2880"/>
         <image name="list.bullet.rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="login_facebook_icon.png" width="1024" height="1024"/>
-        <image name="login_github_icon.png" width="351.08572387695312" height="351.08572387695312"/>
-        <image name="login_google_icon.png" width="900" height="902"/>
+        <image name="login_google_icon.png" width="49.272884368896484" height="49.355003356933594"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -19,6 +19,7 @@
 		3F302F6C294FCBFC00564B35 /* ContentAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F302F6B294FCBFC00564B35 /* ContentAddController.swift */; };
 		3F302F6E2952511A00564B35 /* ContentInboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F302F6D2952511A00564B35 /* ContentInboxController.swift */; };
 		3F302F732952525900564B35 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F302F722952525900564B35 /* CustomTabBarViewController.swift */; };
+		3F469CB3295B26C0001FFEBB /* login_google_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F469CB2295B26C0001FFEBB /* login_google_icon.png */; };
 		3FBABD21295255080042E5E5 /* TabBarWithCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBABD20295255080042E5E5 /* TabBarWithCorners.swift */; };
 		3FCFF4ED28FF45A400DF9A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFF4EC28FF45A400DF9A90 /* AppDelegate.swift */; };
 		3FCFF4EF28FF45A400DF9A90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFF4EE28FF45A400DF9A90 /* SceneDelegate.swift */; };
@@ -35,7 +36,6 @@
 		3FE7060629454F9E004B705F /* app_logo_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7060529454F9E004B705F /* app_logo_color.png */; };
 		3FE7060829468E12004B705F /* login_facebook_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7060729468E12004B705F /* login_facebook_icon.png */; };
 		3FE7060E29469034004B705F /* login_github_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FE7060D29469034004B705F /* login_github_icon.png */; };
-		3FF663502959EDA400E7037B /* login_google_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6634D2959EDA400E7037B /* login_google_icon.png */; };
 		4A44CBD223DA5F5C674E1AA7 /* Pods_LoginPageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661C0B4AE7CA5A9E9AFCFEFC /* Pods_LoginPageTests.framework */; };
 		FA3EE3A5317E1E651D4E0FDE /* Pods_LoginPage_LoginPageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4136B468C4989EB8317E782B /* Pods_LoginPage_LoginPageUITests.framework */; };
 /* End PBXBuildFile section */
@@ -70,6 +70,7 @@
 		3F302F6B294FCBFC00564B35 /* ContentAddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentAddController.swift; sourceTree = "<group>"; };
 		3F302F6D2952511A00564B35 /* ContentInboxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentInboxController.swift; sourceTree = "<group>"; };
 		3F302F722952525900564B35 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		3F469CB2295B26C0001FFEBB /* login_google_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_google_icon.png; sourceTree = "<group>"; };
 		3FBABD20295255080042E5E5 /* TabBarWithCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarWithCorners.swift; sourceTree = "<group>"; };
 		3FCFF4E928FF45A400DF9A90 /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCFF4EC28FF45A400DF9A90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +91,6 @@
 		3FE7060529454F9E004B705F /* app_logo_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_logo_color.png; sourceTree = "<group>"; };
 		3FE7060729468E12004B705F /* login_facebook_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_facebook_icon.png; sourceTree = "<group>"; };
 		3FE7060D29469034004B705F /* login_github_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_github_icon.png; sourceTree = "<group>"; };
-		3FF6634D2959EDA400E7037B /* login_google_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_google_icon.png; sourceTree = "<group>"; };
 		4136B468C4989EB8317E782B /* Pods_LoginPage_LoginPageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginPage_LoginPageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		661C0B4AE7CA5A9E9AFCFEFC /* Pods_LoginPageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginPageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		939745ADFF450C482FDC39BE /* Pods-LoginPage-LoginPageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginPage-LoginPageUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoginPage-LoginPageUITests/Pods-LoginPage-LoginPageUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		3F1C5D1A28FF48BF00684574 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				3FF6634D2959EDA400E7037B /* login_google_icon.png */,
+				3F469CB2295B26C0001FFEBB /* login_google_icon.png */,
 				3FE7060D29469034004B705F /* login_github_icon.png */,
 				3FE7060729468E12004B705F /* login_facebook_icon.png */,
 				3FE7060529454F9E004B705F /* app_logo_color.png */,
@@ -366,7 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FCFF4F928FF45A500DF9A90 /* LaunchScreen.storyboard in Resources */,
-				3FF663502959EDA400E7037B /* login_google_icon.png in Resources */,
+				3F469CB3295B26C0001FFEBB /* login_google_icon.png in Resources */,
 				3F1C5D2028FF4E5600684574 /* GoogleService-Info.plist in Resources */,
 				3FCFF4F628FF45A500DF9A90 /* Assets.xcassets in Resources */,
 				3FE7060829468E12004B705F /* login_facebook_icon.png in Resources */,
